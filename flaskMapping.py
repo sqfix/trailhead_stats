@@ -1,6 +1,7 @@
 import datetime
 import requests
 import json
+import jsonpickle
 from flask import Flask, request
 from lxml import html
 
@@ -26,7 +27,8 @@ def get_user_info(user_id):
     badges = tree.xpath('//div[@class="user-information__achievements-data"]/text()')[0]
     points = tree.xpath('//div[@class="user-information__achievements-data"]/text()')[1]
 
-    return str(UserStats(badges, points, datetime.date.today(), user_id))
+    stats = str(UserStats(badges, points, datetime.date.today(), user_id))
+    return json.dumps(stats)
 
 
 class UserStats(object):
@@ -35,6 +37,3 @@ class UserStats(object):
         self.points = points
         self.date = date
         self.trailId = trail_id
-
-    def __str__(self):
-        return self.badges + ' ' + self.points + ' ' + self.trailId
