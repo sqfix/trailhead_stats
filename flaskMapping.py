@@ -6,12 +6,12 @@ from lxml import html
 app = Flask(__name__)
 
 
-@app.route('/', methods=['POST'])
+@app.route('/', methods=['POST', 'GET'])
 def index():
     if request.method == 'POST':
         user_ids = request.json['user_ids']
         return get_user_info(str(user_ids))
-    return ''
+    return 'Hello!'
 
 
 if __name__ == "__main__":
