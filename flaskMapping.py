@@ -37,4 +37,4 @@ class UserStats(object):
         self.trail_id = trail_id
 
     def __str__(self):
-        return self.badges + '$' + self.points + '$' + self.trail_id + ';'
+        return self.badges + ' ' + self.points + ' ' + self.trail_id + ' '
