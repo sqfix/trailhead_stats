@@ -14,10 +14,6 @@ def index():
     return 'Hello!'
 
 
-if __name__ == "__main__":
-    app.run(debug=True)
-
-
 def get_user_info(user_id):
     page = requests.get("https://trailhead.salesforce.com/en/me/" + user_id)
     print(user_id)
