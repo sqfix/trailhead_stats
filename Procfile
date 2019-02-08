@@ -1,1 +1,1 @@
-web: gunicorn flaskMapping.py
+web: gunicorn -b 0.0.0.0:$PORT flaskMapping:app
