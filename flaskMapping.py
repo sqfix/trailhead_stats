@@ -37,4 +37,4 @@ class UserStats(object):
         self.trail_id = trail_id
 
     def __str__(self):
-        return '{' + '"badges" : "' + self.badges + '", "points" : "' + self.points + '", "trail_id" : "' + self.trail_id + '"}'.replace(" ", "")
+        return '{' + '"badges" : "' + self.badges + '", "points" : "' + self.points + '", "trail_id" : "' + self.trail_id + '"}'
