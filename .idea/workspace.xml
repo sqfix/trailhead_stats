@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6ace17be-32b8-44f6-8939-21042dfd8e87" name="Default Changelist" comment="" />
+    <list default="true" id="6ace17be-32b8-44f6-8939-21042dfd8e87" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/flaskMapping.py" beforeDir="false" afterPath="$PROJECT_DIR$/flaskMapping.py" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,7 +19,7 @@
         <entry file="file://$PROJECT_DIR$/flaskMapping.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="509">
-              <caret line="39" column="84" lean-forward="true" selection-start-line="39" selection-start-column="84" selection-end-line="39" selection-end-column="84" />
+              <caret line="39" column="94" selection-start-line="39" selection-start-column="94" selection-end-line="39" selection-end-column="94" />
               <folding>
                 <element signature="e#0#15#0" expanded="true" />
               </folding>
@@ -155,7 +157,7 @@
       <option name="presentableId" value="Default" />
       <updated>1549460070611</updated>
       <workItem from="1549460072873" duration="8089000" />
-      <workItem from="1549610218766" duration="5299000" />
+      <workItem from="1549610218766" duration="5775000" />
     </task>
     <task id="LOCAL-00001" summary="updated port running">
       <created>1549613616713</created>
@@ -168,7 +170,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="13388000" />
+    <option name="totallyTimeSpent" value="13864000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
@@ -222,7 +224,7 @@
     <entry file="file://$PROJECT_DIR$/flaskMapping.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="509">
-          <caret line="39" column="84" lean-forward="true" selection-start-line="39" selection-start-column="84" selection-end-line="39" selection-end-column="84" />
+          <caret line="39" column="94" selection-start-line="39" selection-start-column="94" selection-end-line="39" selection-end-column="94" />
           <folding>
             <element signature="e#0#15#0" expanded="true" />
           </folding>
