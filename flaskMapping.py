@@ -1,4 +1,5 @@
 import datetime
+import json
 import requests
 from flask import Flask, request
 from lxml import html
@@ -26,7 +27,7 @@ def get_user_info(user_id):
     points = tree.xpath('//div[@class="user-information__achievements-data"]/text()')[1]
 
     stats = str(UserStats(badges, points, datetime.date.today(), user_id))
-    return str(stats)
+    return json.dumps(stats)
 
 
 class UserStats(object):
