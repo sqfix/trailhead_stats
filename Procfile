@@ -1,1 +1,1 @@
-web: python flaskMapping.py
+web: gunicorn flaskMapping.app:app --log-file=-
