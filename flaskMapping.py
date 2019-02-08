@@ -1,6 +1,5 @@
 import datetime
 import requests
-import os
 from flask import Flask, request
 from lxml import html
 
